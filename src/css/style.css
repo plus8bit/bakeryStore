@@ -31,3 +31,8 @@ a {
 nav {
   margin-bottom: 20px;
 }
+
+.section-about {
+  height: 640px;
+  background: url(../img/bg-image.jpg) center/cover no-repeat;
+}
