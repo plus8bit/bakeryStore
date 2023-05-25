@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffE2B0;
 }
@@ -35,4 +39,35 @@ nav {
 .section-about {
   height: 640px;
   background: url(../img/bg-image.jpg) center/cover no-repeat;
+  position: relative;
+}
+
+.section-about__block {
+  height: 190px;
+  width: 420px;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8)100%);
+  position: absolute;
+  top: 349px;
+  left: 730px;
+  padding-top: 15px;
+}
+
+.section-about__border {
+  height: 160px;
+  width: 390px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 17px 0 0 28px;
+  text-align: left;
+}
+
+.section-about__title {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
 }
